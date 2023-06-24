@@ -6,8 +6,7 @@ Console.WriteLine("Какое количество элементов вы хо�
 int size = int.Parse(Console.ReadLine()!);
 int[] array = GetRandomArray(size, -100, 100);
 Console.WriteLine(String.Join(" ", array));
-int summa = SumNeChet(array);
-Console.WriteLine($"Сумма всех эелементов на нечетных позициях равна {summa}");
+Console.WriteLine($"Сумма всех эелементов на нечетных позициях равна {SumNeChet(array)}");
 
 
 int[] GetRandomArray(int s, int minvalue, int maxvalue)
